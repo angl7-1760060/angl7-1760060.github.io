@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Personal Care</title>
+</head>
+<body>
+
+<h2>Job Application</h2>
+
+<form action="http://gclass.alexburner.com/formtest.php" method="post">
+
+	<fieldset>
+		<legend>Life Skills</legend>
+		<div class="field">
+			<label>First name:</label> 
+			<input type="text" name="email">
+		</div>
+		<div class="field">
+			<label>Password:</label> 
+			<input type="password" name="password">
+		</div>
+		<div class="field">
+			<label>Repeat Password:</label> 
+			<input type="password" name="password_r">
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Random Information</legend>
+		<div class="field">
+			<label>Best place to eat food:</label> 
+			<input type="text" name="name">
+		</div>
+		<div class="field">
+			<label>Street Address of school:</label> 
+			<input type="text" name="street">
+		</div>
+		<div class="field">
+			<label>Average number of seeds in a strawberry:</label> 
+			<input type="text" name="city">
+		</div>
+		<div class="field">
+			<label>Age Group</label> 
+			<select name="state">
+				<option value="" selected="true">Choose an Age Group</option>
+				<option value="AL">1 - 18</option>
+				<option value="AK">19 - 30</option>
+				<option value="AZ">31 - 50</option>
+				<option value="AR">50 - 60</option>
+				<option value="CA">60 - 80</option>
+				<option value="CO">80 - 90</option>
+				<option value="CT">90 - 100</option>
+				<option value="DE">100+</option>>
+			</select>
+		</div>
+		<div class="field">
+			<label>Number:</label> 
+			<input type="text" name="zip">
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Availability</legend>
+		<div class="field">
+			<label>Do you have a dog?</label> 
+			<input type="radio" name="legal" value="yes">Yes
+			<input type="radio" name="legal" value="no">No
+		</div>
+		<div class="field">
+			<label>How much you want?</label>
+			<ul>
+				<li><input type="checkbox" name="position_pt" value="parttime">$0</li>
+				<li><input type="checkbox" name="position_ft" value="fulltime">Min Wage</li>
+				<li><input type="checkbox" name="position_sl" value="seasonal">$50+</li>
+			</ul>
+		</div>
+		<div class="field">
+			<label>Hours available</label>
+			<table>
+				<tr>
+					<td></td>
+					<th>Sun</th>
+					<th>Mon</th>
+					<th>Tue</th>
+					<th>Wed</th>
+					<th>Thu</th>
+					<th>Fri</th>
+					<th>Sat</th>
+				</tr>
+				<tr>
+					<th>From</th>
+					<td><input type="time" size="5" name="su_from"></td>
+					<td><input type="time" size="5" name="mo_from"></td>
+					<td><input type="time" size="5" name="tu_from"></td>
+					<td><input type="time" size="5" name="we_from"></td>
+					<td><input type="time" size="5" name="th_from"></td>
+					<td><input type="time" size="5" name="fr_from"></td>
+					<td><input type="time" size="5" name="sa_from"></td>
+				</tr>
+				<tr>
+					<th>Until</th>
+					<td><input type="time" size="5" name="su_until"></td>
+					<td><input type="time" size="5" name="mo_until"></td>
+					<td><input type="time" size="5" name="tu_until"></td>
+					<td><input type="time" size="5" name="we_until"></td>
+					<td><input type="time" size="5" name="th_until"></td>
+					<td><input type="time" size="5" name="fr_until"></td>
+					<td><input type="time" size="5" name="sa_until"></td>
+				</tr>
+			</table>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Personal Statement</legend>
+		<div class="field">
+			<label>How would you go about buying a pair of hotdogs</label><br>
+			<textarea name="deserve" rows="6" cols="60"></textarea>
+		</div>
+		<div class="field">
+			<label>Entertain me!</label><br>
+			<textarea name="project" rows="6" cols="60"></textarea>
+		</div>
+	</fieldset>
+
+	<input type="submit" value="Submit form">
+
+</form>
+</body>
+</html>
